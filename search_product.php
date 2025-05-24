@@ -91,7 +91,7 @@ include 'components/add_cart.php';
                                         <a href="view_page.php?pid=<?= $fetch_products['id'] ?>" class="bx bxs-show"></a>
                                     </div>
                                 </div>
-                                <p class="price">Price: $<?= $fetch_products['price']; ?></p>
+                                <p class="price">Price: ₹<?= $fetch_products['price']; ?></p>
                                 <input type="hidden" name="product_id" value="<?= $fetch_products['id'] ?>">
                                 <div class="flex-btn">
                                     <a href="checkout.php?get_id=<?= $fetch_products['id'] ?>" class="btn">Buy Now</a>

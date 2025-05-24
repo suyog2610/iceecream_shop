@@ -129,9 +129,10 @@ if (isset($_POST['place_order'])) {
     <div class="banner">
         <div class="detail">
             <h1>Checkout</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum labore,<br>
-                eveniet quasi quaerat dicta repellendus sint fuga dolorum quidem molestiae vel <br>
-                animi eius illo, corporis iure assumenda, libero atque! <br>
+            <p>The Checkout page is the final step in the purchase process where logged-in users confirm <br>
+                their order. It collects user information such as name, contact details, shipping address, <br>
+                and lets users choose a payment method (COD, UPI, Card, Netbanking, Paytm). <br>
+                It displays a summary of items and the total cost before placing the order.<br>
             </p>
             <span><a href="home.php">home</a><i class="bx bx-right-arrow-alt"></i>Checkout</span>
         </div>
@@ -153,8 +154,8 @@ if (isset($_POST['place_order'])) {
                                 class="input">
                         </div>
                         <div class="input-field">
-                            <p>your number <span>*</span></p>
-                            <input type="number" name="number" required maxlength="10" placeholder="Enter your number"
+                            <p>your mobile number <span>*</span></p>
+                            <input type="number" name="number" required min="10" maxlength="10" placeholder="Enter your mobile number"
                                 class="input">
                         </div>
                         <div class="input-field">
@@ -230,7 +231,7 @@ if (isset($_POST['place_order'])) {
                                 <img src="uploaded_files/<?= $fetch_get['image'] ?>" class="image">
                                 <div class="np">
                                     <h3 class="name"><?= $fetch_get['name']; ?></h3>
-                                    <p class="price">$<?= $fetch_get['price']; ?>/-</p>
+                                    <p class="price">₹<?= $fetch_get['price']; ?>/-</p>
                                 </div>
                             </div>
                             <?php
@@ -252,7 +253,7 @@ if (isset($_POST['place_order'])) {
                                     <img src="uploaded_files/<?= $fetch_products['image'] ?>" class="image">
                                     <div>
                                         <h3 class="name"><?= $fetch_products['name']; ?></h3>
-                                        <p class="price">$<?= $fetch_products['price']; ?> X <?= $fetch_cart['qty']; ?></p>
+                                        <p class="price">₹<?= $fetch_products['price']; ?> X <?= $fetch_cart['qty']; ?></p>
                                     </div>
                                 </div>
                                 <?php
@@ -265,7 +266,7 @@ if (isset($_POST['place_order'])) {
                 </div>
                 <div class="grand-total">
                     <span>total amount payable:</span>
-                    <p>$<?= $grand_total; ?>/-</p>
+                    <p>₹<?= $grand_total; ?>/-</p>
                 </div>
             </div>
         </div>

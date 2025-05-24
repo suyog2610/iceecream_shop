@@ -107,7 +107,7 @@
                                 </div>
                                 <input type="hidden" name="product_id" value="<?= $fetch_products['id']; ?>">
                                 <div class="flex">
-                                    <p class="price">price $<?= $fetch_products['price']; ?></p>
+                                    <p class="price">price ₹<?= $fetch_products['price']; ?></p>
                                 </div>
                                 <div class="flex">
                                     <input type="hidden" name="qty" required min="1" max="99"
