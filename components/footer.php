@@ -3,8 +3,7 @@
     <div class="content">
         <span>get latest blue sky summer updates</span>
         <h1>subscribe our newsletter</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry.</p>
+        <p></p>
         <div class="input-field">
             <input type="email" name="" placeholder="Enter your E-mail">
             <button class="btn">subscribe</button>
@@ -39,12 +38,12 @@
             <h3>my account</h3>
             <a href=""><i class="bx bx-chevron-right"></i>My account</a>
             <a href=""><i class="bx bx-chevron-right"></i>order history</a>
-            <a href=""><i class="bx bx-chevron-right"></i>wishlist</a>
+            <a href="wishlist.php"><i class="bx bx-chevron-right"></i>wishlist</a>
             <a href=""><i class="bx bx-chevron-right"></i>newsletter</a>
         </div>
         <div class="box">
             <h3>information</h3>
-            <a href=""><i class="bx bx-chevron-right"></i>about us</a>
+            <a href="about"><i class="bx bx-chevron-right"></i>about us</a>
             <a href=""><i class="bx bx-chevron-right"></i>delievry information</a>
             <a href=""><i class="bx bx-chevron-right"></i>privacy policy</a>
             <a href=""><i class="bx bx-chevron-right"></i>terms & condition</a>
@@ -58,8 +57,8 @@
         </div>
         <div class="box">
             <h3>contact us</h3>
-            <p><i class="bx bxs-phone"></i> (406) 555-0120</p>
-            <p><i class="bx bxs-envelope"></i> supra@gmail.com</p>
+            <p><i class="bx bxs-phone"></i> 9999999999</p>
+            <p><i class="bx bxs-envelope"></i> icecream@gmail.com</p>
             <p><i class="bx bxs-location-plus"></i> Mumbai,MH</p>
             <div class="icons">
                 <i class="bx bxl-facebook"></i>
@@ -70,7 +69,7 @@
         </div>
     </div>
     <div class="bottom">
-        <p>Copyright © 2025 code with selena. All Rights Reserved</p>
+        <p>Copyright © 2025 All Rights Reserved</p>
         <a href="admin panel/login.php"> become a seller</a>
     </div>
 </footer>

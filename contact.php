@@ -66,9 +66,8 @@ include 'components/connect.php';
     <div class="banner">
         <div class="detail">
             <h1>Contact Us</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum labore,<br>
-                eveniet quasi quaerat dicta repellendus sint fuga dolorum quidem molestiae vel <br>
-                animi eius illo, corporis iure assumenda, libero atque! <br>
+            <p>Have a question, feedback, or just want to say hello? We'd love to hear from you! <br>
+            Reach out to us anytime — our team is here to help make your ice cream experience even sweeter.<br>
             </p>
             <span><a href="home.php">home</a><i class="bx bx-right-arrow-alt"></i>Contact Us</span>
         </div>
@@ -84,21 +83,23 @@ include 'components/connect.php';
                 <img src="image/0.png">
                 <div>
                     <h1>free fast shipping</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Get your favorite ice creams delivered quickly and absolutely free! 
+                        We ensure every order arrives frozen, fresh, and right on time — because great taste shouldn't wait.</p>
                 </div>
             </div>
             <div class="box">
                 <img src="image/1.png">
                 <div>
                     <h1>money back guarantee</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Not satisfied with your order? No worries! We offer a 100% money-back guarantee 
+                        to ensure you enjoy every scoop with confidence. Your happiness is our priority!</p>
                 </div>
             </div>
             <div class="box">
                 <img src="image/2.png">
                 <div>
                     <h1>online support 24/7</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p> We're always here to help, anytime you need us!</p>
                 </div>
             </div>
         </div>
@@ -141,23 +142,23 @@ include 'components/connect.php';
                 <i class="bx bxs-map-alt"></i>
                 <div>
                     <h4>address</h4>
-                    <p>1093 Marigold, Coral Way <br> Miami, Florida, 33169</p>
+                    <p>Mumbai, Maharashtra</p>
                 </div>
             </div>
             <div class="box">
                 <i class="bx bxs-phone-incoming"></i>
                 <div>
                     <h4>phone number</h4>
-                    <p>331690229</p>
-                    <p>331690229</p>
+                    <p>9999999999</p>
+                    <p> </p>
                 </div>
             </div>
             <div class="box">
                 <i class="bx bxs-envelope"></i>
                 <div>
                     <h4>email</h4>
-                    <p>supra@gmail.com</p>
-                    <p>supra@gmail.com</p>
+                    <p>icecream@gmail.com</p>
+                    <p></p>
                 </div>
             </div>
         </div>

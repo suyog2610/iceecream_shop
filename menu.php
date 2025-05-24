@@ -33,9 +33,9 @@ include 'components/connect.php';
     <div class="banner">
         <div class="detail">
             <h1>our shop</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum labore,<br>
-                eveniet quasi quaerat dicta repellendus sint fuga dolorum quidem molestiae vel <br>
-                animi eius illo, corporis iure assumenda, libero atque! <br>
+            <p>Browse a delicious variety of ice creams from your favorite brands — all in one spot. <br> 
+                From classic scoops to new seasonal flavors, we've got something for every taste bud. <br>
+                Just pick your favorites, place your order, and get ready to chill!<br>
             </p>
             <span><a href="home.php">home</a><i class="bx bx-right-arrow-alt"></i>our shop</span>
         </div>
@@ -77,7 +77,7 @@ include 'components/connect.php';
                             <a href="view_page.php?pid=<?= $fetch_products['id'] ?>" class="bx bxs-show"></a>
                         </div>
                     </div>
-                    <p class="price">price $<?= $fetch_products['price']; ?></p>
+                    <p class="price">price ₹<?= $fetch_products['price']; ?></p>
                     <input type="hidden" name="product_id" value="<?= $fetch_products['id'] ?>">
                     <div class="flex-btn">
                         <a href="checkout.php?get_id=<?= $fetch_products['id'] ?>" class="btn">buy now </a>

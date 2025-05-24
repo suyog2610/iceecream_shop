@@ -118,9 +118,9 @@ include 'components/connect.php';
     <div class="banner">
         <div class="detail">
             <h1>Update Profile</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum labore,<br>
-                eveniet quasi quaerat dicta repellendus sint fuga dolorum quidem molestiae vel <br>
-                animi eius illo, corporis iure assumenda, libero atque! <br>
+            <p>Keep your information up-to-date! You can easily change your name, email,<br>
+                 profile photo, and password (both old and new) to ensure your account is 
+                 always current and secure.<br>
             </p>
             <span><a href="home.php">home</a> <i class="bx bx-right-arrow-alt"></i> Profile <i class="bx bx-right-arrow-alt"></i> Update Profile </span>
         </div>

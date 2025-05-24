@@ -1152,7 +1152,7 @@ footer .bottom a:hover{
     align-items: flex-start;
     text-align: center;
     line-height: 1.5;
-    padding-left: 6%;
+    padding-left: 7%;
 }
 .standers p{
     font-size: 1.6rem;
@@ -1257,6 +1257,7 @@ footer .bottom a:hover{
 .mission .box-container .box .detail h2{
     color: var(--main-color);
     margin-bottom: .5rem;
+    text-transform: capitalize;
 }
 .mission .box-container .box .detail p{
     color: #666;
@@ -1347,7 +1348,7 @@ footer .bottom a:hover{
 }
 
 .products .box-container .box{
-    width: 30rem;
+    width: 28rem;
     position: relative;
     margin: 1rem;
     overflow: hidden;

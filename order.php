@@ -31,9 +31,8 @@ if (isset($_COOKIE['user_id'])) {
     <div class="banner">
         <div class="detail">
             <h1>My Orders</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum labore,<br>
-                eveniet quasi quaerat dicta repellendus sint fuga dolorum quidem molestiae vel <br>
-                animi eius illo, corporis iure assumenda, libero atque! <br>
+            <p>Track your past and current orders in one place. Stay updated on <br>
+                delivery status and reorder your favorite ice creams with ease!<br>
             </p>
             <span><a href="home.php">Home</a> <i class="bx bx-right-arrow-alt"></i> My Orders</span>
         </div>
@@ -79,7 +78,7 @@ if (isset($_COOKIE['user_id'])) {
                                         <img src="image/shape-19.png" class="shap">
                                         <div class="row">
                                             <h3 class="name"> <?= $fetch_products['name']; ?></h3>
-                                            <p class="price">Price: <?= $fetch_products['price'] ?>/-</p>
+                                            <p class="price">Price: ₹<?= $fetch_products['price'] ?>/-</p>
                                             <p class="status" style="color: <?= $border_color; ?>;">
                                                 <?= ucfirst($fetch_orders['status']); ?>
                                             </p>

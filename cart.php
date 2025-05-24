@@ -84,9 +84,9 @@ if (isset($_POST['empty_cart'])){
     <div class="banner">
         <div class="detail">
             <h1>cart</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum labore,<br>
-                eveniet quasi quaerat dicta repellendus sint fuga dolorum quidem molestiae vel <br>
-                animi eius illo, corporis iure assumenda, libero atque! <br>
+            <p>The Cart stores selected ice cream products that a logged-in user intends to purchase. <br>
+                 Users can view item details, update quantities, remove items, and proceed to checkout. <br>
+                 It provides a clear summary of the order before final payment. <br>
             </p>
             <span><a href="home.php">home</a><i class="bx bx-right-arrow-alt"></i>cart</span>
         </div>
@@ -125,13 +125,13 @@ if (isset($_POST['empty_cart'])){
                     <img src="image/shape-19.png" class="shap">
                     <h3 class="name"> <?= $fetch_products['name']; ?> </h3>
                     <div class="flex-btn">
-                        <p class="price">price $<?= $fetch_products['price']; ?>/- </p>
+                        <p class="price">price ₹<?= $fetch_products['price']; ?>/- </p>
                         <input type="number" name="qty" required min="1" 
                             value="<?= $fetch_cart['qty'] ?>" max="99" maxlength="2" class="box qty">
                         <button type="submit" name="update_cart" class="bx bxs-edit fa-edit box"></button>
                     </div>
                     <div class="flex-btn">
-                        <p class="sub-total">sub total : <span>$<?= $sub_total =($fetch_cart['qty']
+                        <p class="sub-total">sub total : <span>₹<?= $sub_total =($fetch_cart['qty']
                             *$fetch_cart['price']); ?></span>
                         </p>
                         <button type="submit" name="delete_item" class="btn" 
@@ -161,7 +161,7 @@ if (isset($_POST['empty_cart'])){
         </div>
         <?php if ($grand_total != 0){ ?>
             <div class="cart-total">
-                <p>total amount payable : <span> $ <?= $grand_total; ?></span></p>
+                <p>total amount payable : <span> ₹ <?= $grand_total; ?></span></p>
                 <div class="button">
                     <form action="" method="post">
                         <button type="submit" name="empty_cart" class="btn" onclick="return confirm

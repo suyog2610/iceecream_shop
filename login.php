@@ -50,9 +50,8 @@ include 'components/connect.php';
     <div class="banner">
         <div class="detail">
             <h1>Login</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum labore,<br>
-                eveniet quasi quaerat dicta repellendus sint fuga dolorum quidem molestiae vel <br>
-                animi eius illo, corporis iure assumenda, libero atque! <br>
+            <p>Log in to explore your favorite ice cream flavors, track orders, and enjoy a smoother, <br>
+                faster checkout experience. Your next scoop of happiness is just a click away!<br>
             </p>
             <span><a href="home.php">home</a><i class="bx bx-right-arrow-alt"></i>Login</span>
         </div>

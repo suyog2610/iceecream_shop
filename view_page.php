@@ -35,9 +35,9 @@ include 'components/connect.php';
     <div class="banner">
         <div class="detail">
             <h1>Product detail</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum labore,<br>
-                eveniet quasi quaerat dicta repellendus sint fuga dolorum quidem molestiae vel <br>
-                animi eius illo, corporis iure assumenda, libero atque! <br>
+            <p>The Product Detail page displays comprehensive information about a selected ice cream item, <br>
+                including its name, image, price, ingredients, description, and availability. <br>
+                Users can add the item to their cart or wishlist from this page.<br>
             </p>
             <span><a href="home.php">home</a><i class="bx bx-right-arrow-alt"></i>Product detail</span>
         </div>
@@ -70,7 +70,7 @@ include 'components/connect.php';
                 <?php }else{ ?>
                     <span class="stock" style="color: red;">Hurry, only <?= $fetch_products['stock']; ?> left</span>
                 <?php } ?>
-                <p class="price">$<?= $fetch_products['price']; ?></p>
+                <p class="price">₹<?= $fetch_products['price']; ?></p>
                 <div class="name"><?= $fetch_products['name']; ?></div>
                 <p class="product-detail"><?= $fetch_products['product_detail']; ?></p>
                 <input type="hidden" name="product_id" value="<?= $fetch_products['id']; ?>">
@@ -94,7 +94,7 @@ include 'components/connect.php';
     <div class="products">
         <div class="heading">
             <h1>similar products</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p></p>
             <img src="image/separator-img.png">
         </div>
         <?php include 'components/shop.php'; ?>

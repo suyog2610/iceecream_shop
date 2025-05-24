@@ -50,9 +50,9 @@
     <div class="banner">
         <div class="detail">
             <h1>my wishlist</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum labore,<br>
-                eveniet quasi quaerat dicta repellendus sint fuga dolorum quidem molestiae vel <br>
-                animi eius illo, corporis iure assumenda, libero atque! <br>
+            <p>The Wishlist allows registered users to save their favorite ice cream products for <br>
+                future reference. Users can add, view, move to cart, or remove items, making <br>
+                shopping more personalized and convenient.<br>
             </p>
             <span><a href="home.php">home</a><i class="bx bx-right-arrow-alt"></i>my wishlist</span>
         </div>

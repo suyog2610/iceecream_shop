@@ -46,9 +46,9 @@ include 'components/connect.php';
     <div class="banner">
         <div class="detail">
             <h1>order detail</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum labore,<br>
-                eveniet quasi quaerat dicta repellendus sint fuga dolorum quidem molestiae vel <br>
-                animi eius illo, corporis iure assumenda, libero atque! <br>
+            <p>The Order Detail page shows complete information about a user's placed order, <br>
+                including order ID, product list, quantities, total price, shipping address, payment method, <br>
+                order status, and estimated delivery date. It helps users track and review their purchases.<br>
             </p>
             <span><a href="home.php">home</a><i class="bx bx-right-arrow-alt"></i>order detail</span>
         </div>
@@ -56,7 +56,7 @@ include 'components/connect.php';
     <div class="order-detail">
         <div class="heading">
             <h1>my order detail</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius quibusdam perferendis laborum amet doloremque</p>
+            <p></p>
             <img src="image/separator-img.png">
         </div>
         <div class="box-container">
@@ -80,9 +80,9 @@ include 'components/connect.php';
                 <div class="col">
                     <p class="title"><i class="bx bxs-calendar-alt"></i><?= $fetch_order['date']; ?></p>
                     <img src="uploaded_files/<?= $fetch_product['image']; ?>" class="image"?>
-                    <p class="price">$<?= $fetch_product['price']; ?>/-</p>
+                    <p class="price">₹<?= $fetch_product['price']; ?>/-</p>
                     <h3 class="name"><?= $fetch_product['name']; ?></h3>
-                    <p class="grand-total">total amount payable : <span>$<?= $grand_total; ?></span>/-</p>
+                    <p class="grand-total">total amount payable : <span>₹<?= $grand_total; ?></span>/-</p>
                 </div>
                 <div class="col">
                     <p class="title">billing address</p>

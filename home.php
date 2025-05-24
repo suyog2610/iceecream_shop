@@ -158,7 +158,7 @@ if (isset($_COOKIE['user_id'])) {
             </div>
             <div class="box">
                 <img src="image/categories1.jpg">
-                <a href="menu.php" class="btn">corn</a>
+                <a href="menu.php" class="btn">cone</a>
             </div>
         </div>
     </div>
@@ -177,7 +177,7 @@ if (isset($_COOKIE['user_id'])) {
                 <img src="image/taste.webp">
                 <div class="detail">
                     <h2>natural sweetness</h2>
-                    <h1>vanilla</h1>
+                    <h1>mango</h1>
                 </div>
             </div>
             <div class="box">
@@ -202,11 +202,10 @@ if (isset($_COOKIE['user_id'])) {
         <div class="overlay">
             <div class="detail">
                 <h1>Ice cream is cheaper than <br> therapy for stress</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    ype specimen book.</p>
+                <p>Treat yourself to a scoop of happiness! Whether you're having a 
+                    rough day or just craving something sweet, our wide range of delicious 
+                    ice creams is the perfect pick-me-up. Because sometimes, all you need 
+                    is a spoon and your favorite flavor.</p>
                 <a href="menu.php" class="btn">shop now</a>
             </div>
         </div>
@@ -225,54 +224,54 @@ if (isset($_COOKIE['user_id'])) {
         <div class="box-container">
             <div class="box">
                 <div class="box-overlay"></div>
-                <img src="image/type4.jpg">
+                <img src="image/type6.jpeg">
                 <div class="box-details fadeIn-bottom">
-                    <h1>strawberry</h1>
+                    <h1>Falooda</h1>
                     <p>find your taste of desserts</p>
                     <a href="menu.php" class="btn">explore more</a>
                 </div>
             </div>
             <div class="box">
                 <div class="box-overlay"></div>
-                <img src="image/type.avif">
+                <img src="image/type7.jpeg">
                 <div class="box-details fadeIn-bottom">
-                    <h1>strawberry</h1>
+                    <h1>pan</h1>
                     <p>find your taste of desserts</p>
                     <a href="menu.php" class="btn">explore more</a>
                 </div>
             </div>
             <div class="box">
                 <div class="box-overlay"></div>
-                <img src="image/type1.png">
+                <img src="image/type8.jpeg">
                 <div class="box-details fadeIn-bottom">
-                    <h1>strawberry</h1>
+                    <h1>sitafal</h1>
                     <p>find your taste of desserts</p>
                     <a href="menu.php" class="btn">explore more</a>
                 </div>
             </div>
             <div class="box">
                 <div class="box-overlay"></div>
-                <img src="image/type2.png">
+                <img src="image/type9.jpeg">
                 <div class="box-details fadeIn-bottom">
-                    <h1>strawberry</h1>
+                    <h1>fruit overload</h1>
                     <p>find your taste of desserts</p>
                     <a href="menu.php" class="btn">explore more</a>
                 </div>
             </div>
             <div class="box">
                 <div class="box-overlay"></div>
-                <img src="image/type0.avif">
+                <img src="image/type10.jpeg">
                 <div class="box-details fadeIn-bottom">
-                    <h1>strawberry</h1>
+                    <h1>american dry fruit</h1>
                     <p>find your taste of desserts</p>
                     <a href="menu.php" class="btn">explore more</a>
                 </div>
             </div>
             <div class="box">
                 <div class="box-overlay"></div>
-                <img src="image/type4.jpg">
+                <img src="image/type11.jpeg">
                 <div class="box-details fadeIn-bottom">
-                    <h1>strawberry</h1>
+                    <h1>tutti fruti</h1>
                     <p>find your taste of desserts</p>
                     <a href="menu.php" class="btn">explore more</a>
                 </div>
@@ -303,34 +302,22 @@ if (isset($_COOKIE['user_id'])) {
                 <div class="box">
                     <img src="image/icon.avif">
                     <div class="detail">
-                        <h3>scoop ice-cream</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the industry's
-                            standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it to make
-                            aype specimen book.</p>
+                        <h3>Browse Brands</h3>
+                        <p>Explore a variety of top ice cream brands all in one place — from local favorites to global names.</p>
                     </div>
                 </div>
                 <div class="box">
                     <img src="image/icon0.avif">
                     <div class="detail">
-                        <h3>scoop ice-cream</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the industry's
-                            standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it to make
-                            aype specimen book.</p>
+                        <h3>Choose Your Flavors</h3>
+                        <p>Pick from hundreds of flavors, from classic vanilla to exotic and limited-edition treats.</p>
                     </div>
                 </div>
                 <div class="box">
                     <img src="image/icon1.avif">
                     <div class="detail">
-                        <h3>scoop ice-cream</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the industry's
-                            standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it to make
-                            aype specimen book.</p>
+                        <h3>Check Product Details</h3>
+                        <p>View flavor descriptions, sizes, and pricing to find the perfect ice cream for you.</p>
                     </div>
                 </div>
             </div>
@@ -339,34 +326,22 @@ if (isset($_COOKIE['user_id'])) {
                 <div class="box">
                     <img src="image/icon2.avif">
                     <div class="detail">
-                        <h3>scoop ice-cream</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the industry's
-                            standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it to make
-                            aype specimen book.</p>
+                        <h3>Add to Cart</h3>
+                        <p>Review your selections and easily add them to your cart with a click.</p>
                     </div>
                 </div>
                 <div class="box">
                     <img src="image/icon3.avif">
                     <div class="detail">
-                        <h3>scoop ice-cream</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the industry's
-                            standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it to make
-                            aype specimen book.</p>
+                        <h3>Checkout Securely</h3>
+                        <p>Enter delivery details and make a secure payment using your preferred method.</p>
                     </div>
                 </div>
                 <div class="box">
                     <img src="image/icon4.avif">
                     <div class="detail">
-                        <h3>scoop ice-cream</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the industry's
-                            standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it to make
-                            aype specimen book.</p>
+                        <h3>Get It Delivered</h3>
+                        <p>Sit back and relax while we deliver your ice cream frozen and fresh — right to your doorstep</p>
                     </div>
                 </div>
             </div>
@@ -377,8 +352,7 @@ if (isset($_COOKIE['user_id'])) {
     <div class="pride">
         <div class="detail">
             <h1>We Pride Ourselves On <br> Exceptional Flavors.</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry.</p>
+            <p></p>
             <a href="menu.php" class="btn">shop now</a>
         </div>
     </div>

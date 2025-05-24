@@ -27,8 +27,9 @@ if (isset($_COOKIE['user_id'])) {
     <div class="banner">
         <div class="detail">
             <h1>About Us</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry.</p>
+            <p>Led by our passionate Masterchef, we bring you the finest ice creams made with love, <br>
+                quality ingredients, and a scoop of creativity. From trusted brands to unique flavors, <br>
+                 everything we offer is crafted with care and obsession for taste.</p>
             <span><a href="home.php">home</a><i class="bx bx-right-arrow-alt"></i>about us</span>
         </div>
     </div>
@@ -46,8 +47,8 @@ if (isset($_COOKIE['user_id'])) {
                     pretium metus sit amet est aliquet vulputate. Fusce et cursus ligula. Sed accumsan
                     dictum porta. Aliquam rutrum ullamcorper velit hendrerit convallis.</p>
                 <div class="flex-btn">
-                    <a href="" class="btn">explore our menu</a>
-                    <a href="menu.php" class="btn">visit our shop</a>
+                    <a href="menu.php" class="btn">explore our menu</a>
+                    <a href="home.php" class="btn">visit our shop</a>
                 </div>
             </div>
             <div class="box">
@@ -131,15 +132,15 @@ if (isset($_COOKIE['user_id'])) {
                 <h1>our standers</h1>
                 <img src="image/separator-img.png">
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Premium Quality Only</p>
             <i class="bx bxs-heart"></i>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Freshness Guaranteed</p>
             <i class="bx bxs-heart"></i>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Customer Satisfaction</p>
             <i class="bx bxs-heart"></i>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Hygiene First</p>
             <i class="bx bxs-heart"></i>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Passion-Driven Service</p>
             <i class="bx bxs-heart"></i>
         </div>
     </div>
@@ -224,8 +225,9 @@ if (isset($_COOKIE['user_id'])) {
                     </div>
                     <div>
                         <h2>maxicon chocolate</h2>
-                        <p>Layers of shaped marshmallow candies - bunnies, chicks, and simple flowers-
-                            make a memorable gift in a beribboned box
+                        <p>Indulge in the rich, velvety taste of Mexicano Chocolate Ice Cream — 
+                            a perfect blend of smooth chocolate with a hint of bold, creamy goodness. 
+                            The ultimate treat for chocolate lovers!
                         </p>
                     </div>
                 </div>
@@ -235,8 +237,8 @@ if (isset($_COOKIE['user_id'])) {
                     </div>
                     <div>
                         <h2>vanilla with honey</h2>
-                        <p>Layers of shaped marshmallow candies - bunnies, chicks, and simple flowers-
-                            make a memorable gift in a beribboned box
+                        <p>xperience the smooth, classic flavor of Vanilla with Honey Ice Cream, where rich vanilla 
+                            meets the natural sweetness of honey. A creamy, indulgent treat thats pure bliss in every bite!
                         </p>
                     </div>
                 </div>
@@ -246,8 +248,8 @@ if (isset($_COOKIE['user_id'])) {
                     </div>
                     <div>
                         <h2>pappermint chip</h2>
-                        <p>Layers of shaped marshmallow candies - bunnies, chicks, and simple flowers-
-                            make a memorable gift in a beribboned box
+                        <p>Cool, refreshing peppermint meets crunchy chocolate chips in this irresistibly minty treat.
+                             A perfect blend of bold flavors to awaken your taste buds!
                         </p>
                     </div>
                 </div>
@@ -256,9 +258,9 @@ if (isset($_COOKIE['user_id'])) {
                         <img src="image/mission2.webp">
                     </div>
                     <div>
-                        <h2>rasberry sorbat</h2>
-                        <p>Layers of shaped marshmallow candies - bunnies, chicks, and simple flowers-
-                            make a memorable gift in a beribboned box
+                        <h2>pista</h2>
+                        <p>Savor the rich, nutty flavor of Pista Ice Cream, made with premium pistachios for a 
+                            smooth and creamy indulgence. A timeless classic that’s both refreshing and satisfying!
                         </p>
                     </div>
                 </div>
